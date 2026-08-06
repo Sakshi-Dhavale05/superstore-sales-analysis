@@ -14,9 +14,9 @@ This project analyzes retail sales data to uncover trends in revenue, customer v
 
 ▫️Tools & Techniques
 
-- SQL (SQLite)
-CTEs, window functions (LAG, RANK), CASE WHEN tiering logic
-Month-over-month growth calculation, customer segmentation, regional ranking, shipping performance, segment contribution analysis
+- SQL (SQLite):
+  CTEs, window functions (LAG, RANK), CASE WHEN tiering logic
+  Month-over-month growth calculation, customer segmentation, regional ranking, shipping performance, segment contribution analysis
 
 - Python (Pandas, Seaborn, Matplotlib)
   Data cleaning and datetime parsing
