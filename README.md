@@ -10,7 +10,6 @@ This project analyzes retail sales data to uncover trends in revenue, customer v
 - Regional leaders differ by sub-category. West ($100K) and Central ($82K) are both led by Chairs, while East ($100K) and South ($58K) are led by Phones — showing distinct regional product preferences rather than one uniform top seller.
 - The Consumer segment drives roughly half of all sales, outperforming Corporate and Home Office across every product category.
 - 793 unique customers placed orders across the full dataset, with an average shipping time of 3.96 days.
--
 
 ▫️Tools & Techniques
 
