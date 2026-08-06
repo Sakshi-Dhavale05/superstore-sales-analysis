@@ -15,24 +15,24 @@ This project analyzes retail sales data to uncover trends in revenue, customer v
 ▫️Tools & Techniques
 
 - SQL (SQLite)
-├──CTEs, window functions (LAG, RANK), CASE WHEN tiering logic
-├──Month-over-month growth calculation, customer segmentation, regional ranking, shipping performance, segment contribution analysis
+CTEs, window functions (LAG, RANK), CASE WHEN tiering logic
+Month-over-month growth calculation, customer segmentation, regional ranking, shipping performance, segment contribution analysis
 
 - Python (Pandas, Seaborn, Matplotlib)
-├──Data cleaning and datetime parsing
-├──Monthly sales trend, sales by category & segment, sales by region, shipping time distribution visualizations
+  Data cleaning and datetime parsing
+  Monthly sales trend, sales by category & segment, sales by region, shipping time distribution visualizations
 
 - Power BI
-├──Custom data model with a dedicated Date table (CALENDAR(), marked as an official date table) to support accurate time intelligence
-├──DAX measures: Total Sales, MoM Growth % (using DATEADD), Avg Shipping Days
-├──DAX calculated column: Customer Tier (CALCULATE + ALLEXCEPT + SWITCH)
-├──Advanced visuals: filled map, decomposition tree (AI-assisted "High value" splitting), funnel chart
-├──Cross-filtering tile slicers, conditional formatting (data bars), and a drillthrough page from Sub-Category to product-level detail
-├──Custom dark theme applied via an importable theme JSON
+Custom data model with a dedicated Date table (CALENDAR(), marked as an official date table) to support accurate time intelligence
+DAX measures: Total Sales, MoM Growth % (using DATEADD), Avg Shipping Days
+DAX calculated column: Customer Tier (CALCULATE + ALLEXCEPT + SWITCH)
+Advanced visuals: filled map, decomposition tree (AI-assisted "High value" splitting), funnel chart
+Cross-filtering tile slicers, conditional formatting (data bars), and a drillthrough page from Sub-Category to product-level detail
+Custom dark theme applied via an importable theme JSON
 
 ▫️Dashboard
-├──Page 1 — Overview: KPI cards, Region/Category/Segment slicers, monthly sales trend, sales-by-region map, Sales decomposition tree, customer tier funnel, and a detail table with conditional formatting.
-├──Page 2 — Sub-Category Detail: Drillthrough destination showing product-level sales, reached by right-clicking any row in the Page 1 detail table.
+Page 1 — Overview: KPI cards, Region/Category/Segment slicers, monthly sales trend, sales-by-region map, Sales decomposition tree, customer tier funnel, and a detail table with conditional formatting.
+Page 2 — Sub-Category Detail: Drillthrough destination showing product-level sales, reached by right-clicking any row in the Page 1 detail table.
 
 ▫️Repository Structure
 superstore-sales-analysis/
