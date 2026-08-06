@@ -1,0 +1,37 @@
+{
+  "name": "Superstore Dark Light Gold Text",
+  "dataColors": [
+    "#446EAA",
+    "#7C3FE5",
+    "#F0E199",
+    "#DE6226",
+    "#5C7A99",
+    "#8A97A0",
+    "#345157",
+    "#B8A6E3"
+  ],
+  "background": "#1E3034",
+  "foreground": "#F0E199",
+  "tableAccent": "#446EAA",
+  "good": "#5FAE6B",
+  "bad": "#C15C5C",
+  "neutral": "#F0E199",
+  "maximum": "#446EAA",
+  "center": "#345157",
+  "minimum": "#1E3034",
+  "null": "#5C7A99",
+  "textClasses": {
+    "label": {
+      "color": "#F0E199",
+      "fontFace": "Segoe UI"
+    },
+    "callout": {
+      "color": "#F0E199",
+      "fontFace": "Segoe UI"
+    },
+    "title": {
+      "color": "#F0E199",
+      "fontFace": "Segoe UI"
+    }
+  }
+}
