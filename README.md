@@ -15,24 +15,28 @@ This project analyzes retail sales data to uncover trends in revenue, customer v
 ▫️Tools & Techniques
 
 - SQL (SQLite):
-  CTEs, window functions (LAG, RANK), CASE WHEN tiering logic
-  Month-over-month growth calculation, customer segmentation, regional ranking, shipping performance, segment contribution analysis
+  
+  1) CTEs, window functions (LAG, RANK), CASE WHEN tiering logic
+  2) Month-over-month growth calculation, customer segmentation, regional ranking, shipping performance, segment contribution analysis
 
-- Python (Pandas, Seaborn, Matplotlib)
-  Data cleaning and datetime parsing
-  Monthly sales trend, sales by category & segment, sales by region, shipping time distribution visualizations
+- Python (Pandas, Seaborn, Matplotlib):
 
-- Power BI
-Custom data model with a dedicated Date table (CALENDAR(), marked as an official date table) to support accurate time intelligence
-DAX measures: Total Sales, MoM Growth % (using DATEADD), Avg Shipping Days
-DAX calculated column: Customer Tier (CALCULATE + ALLEXCEPT + SWITCH)
-Advanced visuals: filled map, decomposition tree (AI-assisted "High value" splitting), funnel chart
-Cross-filtering tile slicers, conditional formatting (data bars), and a drillthrough page from Sub-Category to product-level detail
-Custom dark theme applied via an importable theme JSON
+  1) Data cleaning and datetime parsing
+  2) Monthly sales trend, sales by category & segment, sales by region, shipping time distribution visualizations
 
-▫️Dashboard
-Page 1 — Overview: KPI cards, Region/Category/Segment slicers, monthly sales trend, sales-by-region map, Sales decomposition tree, customer tier funnel, and a detail table with conditional formatting.
-Page 2 — Sub-Category Detail: Drillthrough destination showing product-level sales, reached by right-clicking any row in the Page 1 detail table.
+- Power BI:
+
+  1) Custom data model with a dedicated Date table (CALENDAR(), marked as an official date table) to support accurate time intelligence
+  2) DAX measures: Total Sales, MoM Growth % (using DATEADD), Avg Shipping Days
+  3) DAX calculated column: Customer Tier (CALCULATE + ALLEXCEPT + SWITCH)
+  4) Advanced visuals: filled map, decomposition tree (AI-assisted "High value" splitting), funnel chart
+  5) Cross-filtering tile slicers, conditional formatting (data bars), and a drillthrough page from Sub-Category to product-level detail
+  6) Custom dark theme applied via an importable theme JSON
+
+▫️Dashboard:
+
+1) Page 1 — Overview: KPI cards, Region/Category/Segment slicers, monthly sales trend, sales-by-region map, Sales decomposition tree, customer tier funnel, and a detail table with conditional formatting.
+2) Page 2 — Sub-Category Detail: Drillthrough destination showing product-level sales, reached by right-clicking any row in the Page 1 detail table.
 
 ▫️Repository Structure
 superstore-sales-analysis/
